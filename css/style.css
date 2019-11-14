@@ -14,7 +14,7 @@
 html {
   font-family: "Quicksand", sans-serif;
   font-size: 16px;
-  color: #222222;
+  color: #121212;
 }
 h1,
 h2,
@@ -22,7 +22,7 @@ h3 {
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 900;
-  color: #222222;
+  color: #121212;
 }
 a {
   text-decoration: none;
@@ -35,7 +35,7 @@ p {
 }
 
 /*#######################################DIVIDER#############################*/
-.weAre {
+/* .weAre {
   font-size: 2.3em;
   margin-top: 90px;
   text-align: center;
@@ -64,11 +64,18 @@ p {
 .il-2 {
   margin-left: -5px;
   transform: rotate(-45deg);
+} */
+.info-tittle {
+  color: white;
+  text-align: center;
+  font-size: 2em;
+  letter-spacing: 2vw;
 }
+
 /*###########################################################################*/
 
 .developBy {
-  background: #222222;
+  background:#121212;
   color: white;
   font-size: 12px;
   text-align: center;
@@ -127,7 +134,7 @@ p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 100%;
-  background: #222222;
+  background: #121212;
 }
 .info-divs {
   padding: 0px 25px 0px 100px;
@@ -240,7 +247,7 @@ p {
 .horizontaline {
   width: 70%;
   height: 5px;
-  background: #222222;
+  background: #121212;
   margin: 0 auto;
 }
 .learn-tittle a {
@@ -522,10 +529,27 @@ nav ul li a:hover::after {
   opacity: 0;
 }
 
-.servicios-tittle {
-  margin-top: 75px;
+.tittles {
+  /* margin-top: 75px;
   letter-spacing: -2px;
+  text-align: center; */
   text-align: center;
+  margin: 75px 0;
+  font-size: 6vw;
+  letter-spacing: 4vw;
+  color: #121212;
+  line-height: 1.8;
+}
+.tutu {
+  /* text-align: center;
+  margin: 75px 0;
+  font-size: 6vw;
+  letter-spacing: 4vw;
+  color: #121212;
+  line-height: 1.8; */
+  /* background: red; */
+  /* border-right: 5px solid #121212; */
+  /* border-bottom: 5px solid #121212; */
 }
 .servicios-cover {
   margin-top: 120px;
@@ -555,7 +579,7 @@ nav ul li a:hover::after {
   color: white;
   padding: 50px 5px;
   font-size: 3em;
-  text-shadow: 0px 0px 2px #222222;
+  text-shadow: 0px 0px 2px #121212;
 }
 .programing-img h2:nth-child(1) {
   background: linear-gradient(
@@ -643,7 +667,7 @@ nav ul li a:hover::after {
 }
 .photo-img h2:nth-child(3) {
   background: #e6e6e6;
-  color: #222222;
+  color: #121212;
 }
 
 .seo-img img {
